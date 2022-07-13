@@ -15,10 +15,10 @@ const LayoutWrapper = ({ children }) => {
         <header className="flex items-center justify-between py-10">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
-              <div className="flex items-center justify-between">
+              <div className="flex-start flex items-center">
                 <div
                   className="h-screen"
-                  style={{ position: 'relative', width: '100%', height: '50%', flex: 1 }}
+                  style={{ position: 'relative', width: '100%', height: '30%', flex: 0.7 }}
                 >
                   <img src="/static/images/logo.png" layout="fill" />
                 </div>
