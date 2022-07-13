@@ -18,15 +18,10 @@ The rolls weren't kind. After 20 minutes they encountered 5 zombies (that Thelon
 
 "They're there. Get them"
 
-<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Spoiler</button>
+## Spoilers Below
 
-<div id="spoiler" style="display:none; background: #4a4a4a;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;">
 Some DM considerations as usual. The kiting fight was fun but probably a bit too cheesy, not sure what to do to prevent that. Theoretically I know I'm not running B/X as written since players shouldn't be able to move after attacking, but I really don't like that. I guess I'll just make more random encounters checks if they do stuff like that since it means the fight will drag on and produce noise.
-<br><br>
-There's also a "problem" with pit traps. The party keeps using them to basically prevent dumb monsters like skeletons and zombies to reach them. (And intelligent ones as well since sometimes they just put themselves in front of the pit with the shield preventing anyone from jumping). That's probably creative problem solving but it gets tedious after a while. 
-<br><br>
+
+There's also a "problem" with pit traps. The party keeps using them to basically prevent dumb monsters like skeletons and zombies to reach them. (And intelligent ones as well since sometimes they just put themselves in front of the pit with the shield preventing anyone from jumping). That's probably creative problem solving but it gets tedious after a while.
+
 I'm really curious as to how the ending will play out next session. Realistically there should be a lot of Huecuvas outside if they're actually sentient, but I'm not sure I made the right decision of actually allowing them to call for reinforcements. How would you play it out?
-</div>

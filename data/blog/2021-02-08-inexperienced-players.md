@@ -18,16 +18,9 @@ When it comes to new players I found that most of them tend to have a map of wha
 
 The group explored the starting areas and got introduced to the Corpse Collectors. They were scared at first but then kinda got accustomed to them.
 
-<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Spoiler</button>
-
-<div id="spoiler" style="display:none; background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;">
 There's one closed door in Area 6 that the collectors have the key to. It's supposed to encourage roleplaying and NPC interaction. Too bad my players didn't even consider asking the Corpse Collectors about the dungeon. I should probably have told them straight away that was an option given they're new, but I'm still not sure if playing and leaning by experience is better than being explicitely told to do something.
-<br><br>
+
 Also the players managed to get the magical powerful crushing (etc) axe in Area 2 just to forget about it completely. Not sure how to feel about that...
-</div>
 
 Afterwards they went south and fought the Bone Gnawer, not getting hit even once, and Atram had the idea of heating the rusted bars of the gate blocking their path (this is what means not having any 5e experience!). Continuing they met some adventurers, once again proving how difficult it is to roleplay with new players, and moved towards a room with 5 Ghouls in a corner.
 
