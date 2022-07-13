@@ -24,7 +24,7 @@ const LayoutWrapper = ({ children }) => {
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div
-                    style={{ paddingLeft: 30, paddingBottom: 17 }}
+                    style={{ paddingLeft: 30, paddingBottom: 23 }}
                     className="h-19.5 hidden text-5xl font-semibold sm:block"
                   >
                     {siteMetadata.headerTitle}
