@@ -70,13 +70,13 @@
 
 .token.symbol,
 .token.property {
-  color: rgb(128, 203, 196);
+  color: rgb(188, 135, 91);
 }
 
 .token.tag,
 .token.operator,
 .token.keyword {
-  color: rgb(127, 219, 202);
+  color: rgb(188, 135, 91);
 }
 
 .token.boolean {

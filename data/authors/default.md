@@ -1,16 +1,13 @@
 ---
-name: Tails Azimuth
+name: Nik Vinter
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: pretentious writer
+company: Level Drain
+email: leveldrain.publishing@gmail.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I’m a dumb fuck that mostly writes OSR content and philosophical considerations
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+In this blog you will find play reports, module reviews, random ideas and tables to populate your games.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Currently I'm playing AD&D 1e, but I've been trough B/X, 2e, OD&D and other FOE stuff (Mothership, Into The Odd, Electric Bastionland, Mausritter, Mork Borg, \*hack...)
