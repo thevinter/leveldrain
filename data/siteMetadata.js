@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Level Drain',
   author: 'Nikita Brancatisano',
-  headerTitle: 'LevelDrain',
+  headerTitle: 'Level Drain',
   theme: 'system',
   description: 'A Blog about Old School Roleplaying Games',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
