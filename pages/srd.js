@@ -22,7 +22,7 @@ export default function Projects() {
             <h1 className="text-2xl">Creating A Character:</h1>
             <div className="pl-5">
               <h4 className="font-bold">
-                <Link href="/srd/stats">Ability Scores</Link>
+                <Link href="/srd/rules/stats">Ability Scores</Link>
               </h4>
               <h4 className="font-bold">Races</h4>
               <ul className="list-disc pl-10">
@@ -79,16 +79,16 @@ export default function Projects() {
                 </li>
               </ul>
               <h4 className="font-bold">
-                <Link href="/srd/multiclassing-dualclassing">Multiclassing</Link>
+                <Link href="/srd/rules/multiclassing-dualclassing">Multiclassing</Link>
               </h4>
               <h4 className="font-bold">
-                <Link href="/srd/alignment">Alignment</Link>
+                <Link href="/srd/rules/alignment">Alignment</Link>
               </h4>
               <h4 className="font-bold">
-                <Link href="/srd/money">Money</Link>
+                <Link href="/srd/rules/money">Money</Link>
               </h4>
               <h4 className="font-bold">
-                <Link href="/srd/equipment">Equipment</Link>
+                <Link href="/srd/rules/equipment">Equipment</Link>
               </h4>
             </div>
           </div>
