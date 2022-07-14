@@ -1,6 +1,6 @@
 ---
 title: The Evil Of The Temple - Episodes 1-5
-date: '2021-07-15'
+date: '2022-07-15'
 tags: ['OSR', 'Play-Report', 'TOEE']
 draft: false
 summary: 'A play report of Temple Of Elemental Evil without almost any module content so far'
