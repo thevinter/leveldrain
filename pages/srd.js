@@ -107,6 +107,19 @@ export default function Projects() {
               </ul>
             </div>
             <div>
+              Rules taken directly from the
+              <Link
+                className="underline"
+                href="https://www.paypal.com/donate/?hosted_button_id=7VJZJ37XBHTNQ"
+                passHref
+              >
+                <a className="underline" href="">
+                  OSRIC document
+                </a>
+              </Link>
+              and distributed under the OSRIC Open Licence
+            </div>
+            <div>
               Consider{' '}
               <Link
                 className="underline"
