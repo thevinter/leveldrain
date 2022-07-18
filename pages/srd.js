@@ -106,21 +106,7 @@ export default function Projects() {
                 </li>
               </ul>
             </div>
-            <div>
-              Rules taken directly from the
-              <Link className="underline" href="https://www.osricrpg.com/files/OSRIC.pdf" passHref>
-                <a className="underline" href="">
-                  OSRIC document
-                </a>
-              </Link>
-              and distributed under the
-              <Link className="underline" href="https://osricrpg.com/license.php" passHref>
-                <a className="underline" href="">
-                  OOSRIC Open Licence and the Oepen Gaming Licence
-                </a>
-              </Link>
-            </div>
-            <div>
+            <div className="py-3">
               Consider{' '}
               <Link
                 className="underline"
@@ -131,6 +117,42 @@ export default function Projects() {
                   donating to show appretiation and help development
                 </a>
               </Link>
+            </div>
+            <div className="py-2">
+              Rules taken directly from the{' '}
+              <Link className="underline" href="https://www.osricrpg.com/files/OSRIC.pdf" passHref>
+                <a className="underline" href="">
+                  OSRIC document{' '}
+                </a>
+              </Link>
+              and distributed under the{' '}
+              <Link className="underline" href="https://osricrpg.com/license.php" passHref>
+                <a className="underline" href="">
+                  OSRIC Open Licence and the Oepen Gaming Licence{' '}
+                </a>
+              </Link>
+            </div>
+            <div className="py-2">
+              OSRIC copyright 2006-08 by Stuart Marshall, adapting material prepared by Matthew J .
+              Finch, based on the System Reference Document, inspired by the works of E . Gary
+              Gygax, Dave Arneson, and many others" and "OSRIC Chapter I copyright 2006-08 by Stuart
+              Marshall. OSRIC Chapter II copyright 2006-08 by Stuart Marshall. OSRIC Chapter III
+              copyright 2006-08 by Stuart Marshall, Trent Foster, James Boney and Vincent Frugé.
+              OSRIC Chapter IV copyright 2006-08 by Stuart Marshall, Trent Foster, James Boney and
+              Vincent Frugé. OSRIC Chapter V copyright 2007-08 by Stuart Marshall, Chris Hopkins,
+              James Boney, Robert Ross, Jeremy Goehring, Mike Davison, Daniel Proctor, B . Scot
+              Hoover, Chris Cain, Bill Silvey, Floyd Canaday, Vincent Frugé and Matthew James
+              Stanham. OSRIC Chapter VI copyright 2007-08 by Stuart Marshall, Daniel Proctor and
+              Vincent Frugé. OSRIC appendices copyright 2006-08 by Stuart Marshall and James D.
+              Kramer.
+            </div>
+            <div>
+              This product uses the OSRIC™ System (Oldschool System Reference and Index
+              Compilation™). The OSRIC™ system text may be found at
+              http://www.knights-n-knaves.com/osric. The OSRIC™ text is copyright of Stuart
+              Marshall. "OSRIC™" and "Oldschool System Reference and Index Compilation™" are
+              trademarks of Stuart Marshall and Matthew Finch and may be used only in accordance
+              with the OSRIC™ license.
             </div>
           </div>
         </div>
