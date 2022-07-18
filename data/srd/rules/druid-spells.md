@@ -9,30 +9,30 @@ Druidic spells draw upon the divine power of nature, and operate according to si
 
 ## Druid Spells By Level
 
-| Level One                 | Level Two                | Level Three            | Level Four                      |
-| ------------------------- | ------------------------ | ---------------------- | ------------------------------- |
-| 1 Animal Friendship       | 1 Barkskin               | 1 Call Lightning       | 1 Animal Summoning I            |
-| 2 Detect Magic            | 2 Charm Person or Mammal | 2 Cure Disease         | 2 Call Woodland Beings          |
-| 3 Detect Pits and Snares  | 3 Create Water           | 3 Hold Animal          | 3 Control Temperature 100 ft r. |
-| 4 Entangle                | 4 Cure Light Wounds      | 4 Neutralise Poison    | 4 Cure Serious Wounds           |
-| 5 Faerie Fire             | 5 Feign Death            | 5 Plant Growth         | 5 Dispel Magic                  |
-| 6 Invisibility to Animals | 6 Fire Trap              | 6 Protection From Fire | 6 Hallucinatory Forest          |
-| 7 Locate Animals          | 7 Heat Metal             | 7 Pyrotechnics         | 7 Hold Plant                    |
-| 8 Pass Without Trace      | 8 Locate Plants          | 8 Snare                | 8 Plant Door                    |
-| 9 Predict Weather         | 9 Obscurement            | 9 Stone Shape          | 9 Produce Fire                  |
-| 10 Purify Water           | 10 Produce Flame         | 10 Summon Insects      | 10 Protection From Lightning    |
-| 11 Shillelagh             | 11 Trip                  | 11 Tree                | 11 Repel Insects                |
-| 12 Speak with Animals     | 12 Warp Wood             | 12 Water Breathing     | 12 Speak with Plants            |
+| Level One                                                              | Level Two                                                            | Level Three                                                      | Level Four                                                                           |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 1 [Animal Friendship](/srd/spells/druid/animal-friendship)             | 1 [Barkskin](/srd/spells/druid/barkskin)                             | 1 [Call Lightning](/srd/spells/druid/call-lightning)             | 1 [Animal Summoning I](/srd/spells/druid/animal-summoning-i)                         |
+| 2 [Detect Magic](/srd/spells/druid/detect-magic)                       | 2 [Charm Person or Mammal](/srd/spells/druid/charm-person-or-mammal) | 2 [Cure Disease](/srd/spells/druid/cure-disease)                 | 2 [Call Woodland Beings](/srd/spells/druid/call-woodland-beings)                     |
+| 3 [Detect Pits and Snares](/srd/spells/druid/detect-pits-and-snares)   | 3 [Create Water](/srd/spells/druid/create-water)                     | 3 [Hold Animal](/srd/spells/druid/hold-animal)                   | 3 [Control Temperature 10 ft r.](/srd/spells/druid/control-temperature-10-ft-radius) |
+| 4 [Entangle](/srd/spells/druid/entangle)                               | 4 [Cure Light Wounds](/srd/spells/druid/cure-light-wounds)           | 4 [Neutralise Poison](/srd/spells/druid/neutralise-poison)       | 4 [Cure Serious Wounds](/srd/spells/druid/cure-serious-wounds)                       |
+| 5 [Faerie Fire](/srd/spells/druid/faerie-fire)                         | 5 [Feign Death](/srd/spells/druid/feign-death)                       | 5 [Plant Growth](/srd/spells/druid/plant-growth)                 | 5 [Dispel Magic](/srd/spells/druid/dispel-magic)                                     |
+| 6 [Invisibility to Animals](/srd/spells/druid/invisibility-to-animals) | 6 [Fire Trap](/srd/spells/druid/fire-trap)                           | 6 [Protection From Fire](/srd/spells/druid/protection-from-fire) | 6 [Hallucinatory Forest](/srd/spells/druid/hallucinatory-forest)                     |
+| 7 [Locate Animals](/srd/spells/druid/locate-animals)                   | 7 [Heat Metal](/srd/spells/druid/heat-metal)                         | 7 [Pyrotechnics](/srd/spells/druid/pyrotechnics)                 | 7 [Hold Plant](/srd/spells/druid/hold-plant)                                         |
+| 8 [Pass Without Trace](/srd/spells/druid/pass-without-trace)           | 8 [Locate Plants](/srd/spells/druid/locate-plants)                   | 8 [Snare](/srd/spells/druid/snare)                               | 8 [Plant Door](/srd/spells/druid/plant-door)                                         |
+| 9 [Predict Weather](/srd/spells/druid/predict-weather)                 | 9 [Obscurement](/srd/spells/druid/obscurement)                       | 9 [Stone Shape](/srd/spells/druid/stone-shape)                   | 9 [Produce Fire](/srd/spells/druid/produce-fire)                                     |
+| 10 [Purify Water](/srd/spells/druid/purify-water)                      | 10 [Produce Flame](/srd/spells/druid/produce-flame)                  | 10 [Summon Insects](/srd/spells/druid/summon-insects)            | 10 [Protection From Lightning](/srd/spells/druid/protection-from-lightning)          |
+| 11 [Shillelagh](/srd/spells/druid/shillelagh)                          | 11 [Trip](/srd/spells/druid/trip)                                    | 11 [Tree](/srd/spells/druid/tree)                                | 11 [Repel Insects](/srd/spells/druid/repel-insects)                                  |
+| 12 [Speak with Animals](/srd/spells/druid/speak-with-animals)          | 12 [Warp Wood](/srd/spells/druid/warp-wood)                          | 12 [Water Breathing](/srd/spells/druid/water-breathing)          | 12 [Speak with Plants](/srd/spells/druid/speak-with-plants)                          |
 
-| Level Five              | Level Six                | Level Seven                |
-| ----------------------- | ------------------------ | -------------------------- |
-| 1 Animal Growth         | 1 Animal Summoning III   | 1 Animate Rock             |
-| 2 Animal Summoning II   | 2 Anti-Animal Shell      | 2 Chariot of Fire          |
-| 3 Anti-Plant Shell      | 3 Conjure Fire Elemental | 3 Confusion                |
-| 4 Commune With Nature   | 4 Cure Critical Wounds   | 4 Conjure Earth Elemental  |
-| 5 Control Winds         | 5 Feeblemind             | 5 Control Weather          |
-| 6 Insect Plague         | 6 Fire Seeds             | 6 Creeping Doom            |
-| 7 Pass Plant            | 7 Transport via Plants   | 7 Finger of Death          |
-| 8 Sticks to Snakes      | 8 Turn Wood              | 8 Fire Storm               |
-| 9 Transmute Rock to Mud | 9 Wall of Thorns         | 9 Reincarnate              |
-| 10 Wall of Fire         | 10 Weather Summoning     | 10 Transmute Metal to Wood |
+| Level Five                                                         | Level Six                                                            | Level Seven                                                             |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 1 [Animal Growth](/srd/spells/druid/animal-growth)                 | 1 [Animal Summoning III](/srd/spells/druid/animal-summoning-iii)     | 1 [Animate Rock](/srd/spells/druid/animate-rock)                        |
+| 2 [Animal Summoning II](/srd/spells/druid/animal-summoning-ii)     | 2 [Anti-Animal Shell](/srd/spells/druid/anti-animal-shell)           | 2 [Chariot of Fire](/srd/spells/druid/chariot-of-fire)                  |
+| 3 [Anti-Plant Shell](/srd/spells/druid/anti-plant-shell)           | 3 [Conjure Fire Elemental](/srd/spells/druid/conjure-fire-elemental) | 3 [Confusion](/srd/spells/druid/confusion)                              |
+| 4 [Commune With Nature](/srd/spells/druid/commune-with-nature)     | 4 [Cure Critical Wounds](/srd/spells/druid/cure-critical-wounds)     | 4 [Conjure Earth Elemental](/srd/spells/druid/conjure-earth-elemental)  |
+| 5 [Control Winds](/srd/spells/druid/control-winds)                 | 5 [Feeblemind](/srd/spells/druid/feeblemind)                         | 5 [Control Weather](/srd/spells/druid/control-weather)                  |
+| 6 [Insect Plague](/srd/spells/druid/insect-plague)                 | 6 [Fire Seeds](/srd/spells/druid/fire-seeds)                         | 6 [Creeping Doom](/srd/spells/druid/creeping-doom)                      |
+| 7 [Pass Plant](/srd/spells/druid/pass-plant)                       | 7 [Transport via Plants](/srd/spells/druid/transport-via-plants)     | 7 [Finger of Death](/srd/spells/druid/finger-of-death)                  |
+| 8 [Sticks to Snakes](/srd/spells/druid/sticks-to-snakes)           | 8 [Turn Wood](/srd/spells/druid/turn-wood)                           | 8 [Fire Storm](/srd/spells/druid/fire-storm)                            |
+| 9 [Transmute Rock to Mud](/srd/spells/druid/transmute-rock-to-mud) | 9 [Wall of Thorns](/srd/spells/druid/wall-of-thorns)                 | 9 [Reincarnate](/srd/spells/druid/reincarnate)                          |
+| 10 [Wall of Fire](/srd/spells/druid/wall-of-fire)                  | 10 [Weather Summoning](/srd/spells/druid/weather-summoning)          | 10 [Transmute Metal to Wood](/srd/spells/druid/transmute-metal-to-wood) |

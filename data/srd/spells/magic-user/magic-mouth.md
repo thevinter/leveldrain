@@ -1,5 +1,5 @@
 ---
-title: Magic Nouth
+title: Magic Mouth
 type: Arcane Transmutation/Alteration
 level: Magic user 2
 range: See below

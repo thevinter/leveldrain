@@ -1,14 +1,14 @@
 ---
 title: Gate
 type: Arcane Enchantment/Charm
-level: Magic user 6
-range: Touch
+level: Magic user 9
+range: 30 ft
 duration: See below
-aoe: One creature
+aoe: One summoned creature
 components: V, S
-cast: 4 segments
+cast: 9 segments
 save: None
 draft: false
 ---
 
-A *geas* is a magical compulsion placed upon an intelligent creature to perform, or refrain from performing, some task set by the caster. While the *geas* cannot compel suicide or its equivalent, it is a very powerful spell. If the creature under the *geas* avoids or is prevented from performing the task, it will sicken and die within 1d4 weeks if the task is not resumed. The disease will, of course, create symptoms that the GM will determine; if the *geas* is resumed, these may or may not remain until the task is completed. Even a remove curse spell will not remove a *geas*, although a [wish](/srd/spells/magic-user/wish) spell is powerful enough to dispel it.
+A gate spell creates an opening between the material plane and another plane of existence, summoning forth a being from the other plane. The caster must know the name of the creature he or she is attempting to summon, or the spell will fail. The particular creature named in the spell’s casting might choose not to step through the gate into the material plane—summoning Thor is unlikely to bring the thunder god from the halls of Valhalla—however, a being of some kind will certainly respond to the summons. Thor, if summoned, might choose to send a Valkyrie, for instance. Casting this spell can be risky, for the caster has no control over the summoned creature unless proper precautions are taken, such as a protection from evil spell, the drawing of appropriate magical circles, etc. Beings summoned from distant planes, particularly beings with individual names of their own, can be powerful and irascible

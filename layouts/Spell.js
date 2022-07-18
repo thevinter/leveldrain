@@ -6,9 +6,19 @@ import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import { useRouter } from 'next/router'
+
+function getHref(pageName) {
+  if (pageName.includes('magic-user')) return '/srd/rules/magic-user-spells'
+  if (pageName.includes('druid')) return '/srd/rules/druid-spells'
+  if (pageName.includes('illusionist')) return '/srd/rules/illusionist-spells'
+  if (pageName.includes('cleric')) return '/srd/rules/cleric-spells'
+}
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { title, type, level, range, duration, aoe, components, cast, save } = frontMatter
+  const router = useRouter()
+  console.log(router.pathname)
 
   return (
     <SectionContainer>
@@ -21,6 +31,11 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div>
                 <PageTitle>{title}</PageTitle>
                 <div>{type}</div>
+              </div>
+              <div className="font-bold underline" style={{ textAlign: 'left' }}>
+                <Link href={getHref(router.pathname)} passHref>
+                  <a href="#">{'< Go Back To Spell List'}</a>
+                </Link>
               </div>
             </div>
           </header>
