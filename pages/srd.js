@@ -113,7 +113,16 @@ export default function Projects() {
                   OSRIC document
                 </a>
               </Link>
-              and distributed under the OSRIC Open Licence
+              and distributed under the OSRIC Open Licence and the
+              <Link
+                className="underline"
+                href="https://media.wizards.com/2016/downloads/SRD-OGL_V1.1.pdf"
+                passHref
+              >
+                <a className="underline" href="">
+                  Open Gaming Licence
+                </a>
+              </Link>
             </div>
             <div>
               Consider{' '}
