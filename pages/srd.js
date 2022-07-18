@@ -108,11 +108,7 @@ export default function Projects() {
             </div>
             <div>
               Rules taken directly from the
-              <Link
-                className="underline"
-                href="https://www.paypal.com/donate/?hosted_button_id=7VJZJ37XBHTNQ"
-                passHref
-              >
+              <Link className="underline" href="https://www.osricrpg.com/files/OSRIC.pdf" passHref>
                 <a className="underline" href="">
                   OSRIC document
                 </a>
