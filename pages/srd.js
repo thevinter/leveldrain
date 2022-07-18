@@ -106,6 +106,18 @@ export default function Projects() {
                 </li>
               </ul>
             </div>
+            <div>
+              Consider{' '}
+              <Link
+                className="underline"
+                href="https://www.paypal.com/donate/?hosted_button_id=7VJZJ37XBHTNQ"
+                passHref
+              >
+                <a className="underline" href="">
+                  donating to show appretiation and help development
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
