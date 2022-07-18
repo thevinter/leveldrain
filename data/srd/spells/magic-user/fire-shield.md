@@ -3,7 +3,7 @@ title: Fire Shield
 type: Arcane Evocation
 level: Magic user 4
 range: Caster
-duration:2 rounds + 1 round / level
+duration: 2 rounds + 1 round / level
 aoe: Caster
 components: V, S, M
 cast: 4 segments

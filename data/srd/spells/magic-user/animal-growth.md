@@ -11,4 +11,4 @@ save: None
 draft: false
 ---
 
-Other than as noted above, this spell is identical to the druidic spell animal growth.
+Other than as noted above, this spell is identical to the druidic spell [Animal Growth](/srd/spells/druid/animal-growth).

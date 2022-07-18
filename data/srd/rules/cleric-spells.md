@@ -5,6 +5,8 @@ tags: ['Chapter 2', 'Spells']
 draft: false
 ---
 
+Clerical spells draw upon divine power, channelling unearthly forces through the cleric’s words and gestures. Any clerical spell with a material component requires (at a minimum) the use of the cleric’s holy symbol unless the spell description states otherwise.
+
 ## Cleric Spells By Level
 
 | Level One               | Level Two             | Level Three             |
