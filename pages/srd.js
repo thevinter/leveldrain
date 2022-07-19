@@ -114,7 +114,7 @@ export default function Projects() {
                 passHref
               >
                 <a className="underline" href="">
-                  donating to show appretiation and help development
+                  donating to show appreciation and help development
                 </a>
               </Link>
             </div>
