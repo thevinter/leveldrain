@@ -120,12 +120,7 @@ To turn undead, roll a d20 on the Turning Undead Table. If the result is equal t
 | Type 12        | Lich     | -   | -   | -   | -   | -   | -   | 20  | 19  | 16   | 13    | 10  |
 | Type 13        | Fiend    | -   | -   | -   | -   | -   | -   | -   | 20  | 19   | 16    | 13  |
 
-For the purposes of evil clerics turning paladins, paladins are treated as Type 8 if they are level 1-2, Type 9 if level 3-4, Type 10 if level 5-6, Type 11 if level
-7-8, Type 12 if level 9-10 and Type 13 if level 11 or higher. However, paladins cannot be destroyed by turning.
-If the number on the die is equal to or greater than the number shown on the table, the creature is turned and will fl ee.
-If the table indicates “T”, the undead creature is automatically turned, and will fl ee.
-It the table indicates “D”, the undead creature is automatically destroyed and will crumble to dust.
-For evil clerics, a result of “D” indicates that the undead are forced into the cleric’s command for a period of 24 hours.
+For the purposes of evil clerics turning paladins, paladins are treated as Type 8 if they are level 1-2, Type 9 if level 3-4, Type 10 if level 5-6, Type 11 if level 7-8, Type 12 if level 9-10 and Type 13 if level 11 or higher. However, paladins cannot be destroyed by turning. If the number on the die is equal to or greater than the number shown on the table, the creature is turned and will fl ee. If the table indicates “T”, the undead creature is automatically turned, and will fl ee. It the table indicates “D”, the undead creature is automatically destroyed and will crumble to dust. For evil clerics, a result of “D” indicates that the undead are forced into the cleric’s command for a period of 24 hours.
 
 ### Bonus Spells
 

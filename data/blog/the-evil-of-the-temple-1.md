@@ -1,5 +1,5 @@
 ---
-title: The Evil Of The Temple - Episodes 1-5
+title: The Evil Of The Temple - Sessions 1-5
 date: '2022-07-15'
 tags: ['OSR', 'Play-Report', 'TOEE']
 draft: false
