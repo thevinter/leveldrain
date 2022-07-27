@@ -11,7 +11,7 @@ const cemeteryData = [
     level: 1,
     class: 'Fighter',
     race: 'Human',
-    death: 'Crushed by an unknown entity disguised as a cat in a cage',
+    death: 'Killed by an unknown entity disguised as a cat in a cage',
   },
 ]
 
