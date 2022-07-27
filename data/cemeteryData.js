@@ -6,6 +6,13 @@ const cemeteryData = [
     race: 'Human',
     death: 'Crushed by a collapsed wall in Dwarrowdeep',
   },
+  {
+    name: 'Olafur',
+    level: 1,
+    class: 'Fighter',
+    race: 'Human',
+    death: 'Crushed by an unknown entity disguised as a cat in a cage',
+  },
 ]
 
 export default cemeteryData
