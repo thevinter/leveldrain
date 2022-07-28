@@ -18,7 +18,6 @@ function getHref(pageName) {
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { title, type, level, range, duration, aoe, components, cast, save } = frontMatter
   const router = useRouter()
-  console.log(router.pathname)
 
   return (
     <SectionContainer>
