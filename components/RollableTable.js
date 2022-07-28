@@ -162,7 +162,7 @@ export default function RollableTable({ debug, input, choice }) {
   const [result, setResult] = useState([''])
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <div dangerouslySetInnerHTML={{ __html: table }} />
+      <div style={{ overflowY: 'scroll' }} dangerouslySetInnerHTML={{ __html: table }} />
       <div style={{ display: 'flex', flexDirection: 'row' }}>
         <div>
           {choice && typeof window != undefined && (
