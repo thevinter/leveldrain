@@ -1,0 +1,448 @@
+---
+title: Random Dungeon Encounters
+date: '2022-07-14'
+tags: ['Chapter 1', 'Creating a Character']
+draft: false
+---
+
+import RollableTable from 'components/RollableTable'
+
+**Directions:** When a random monster encounter is called for, roll a d12. Cross-reference the result with the dungeon level where the encounter occurs on the Monster Sub-table Matrix. Once the sub-table is found, roll a d% to determine the actual monster(s) encountered.
+
+The # column lists the numbers encountered on the dungeon level equivalent to the monster's level. If encountered on a lower or higher level, adjust the numbers encountered as follows:
+
+Lesser monsters encountered on a lower dungeon level should have their numbers increased by the same amount for each dungeon level lower than their monster level. For example, the sub-table# column lists 2d10 for goblins (first level) encountered on the first level of the dungeon. If encountered on the third level of the dungeon, they would be three times as numerous (6d10). The same procedure applies equally to higher level monsters, with the following exceptions:
+
+NPC parties or individuals encountered have their class-level increased rather than their numbers.
+
+Ninth and tenth level monsters usually are encountered with attendants or minions at lower levels in lieu of greater numbers.
+
+Greater monsters encountered on a higher dungeon level will have their numbers decreased by 1 for each dungeon level higher than their monster level (minimum of 1). For example, the sub-table # column calls for 1d8 Shadows on the fourth level of the dungeon. If encountered on the third level, the range would be reduced to 1d8-1. Greater monsters that may normally have minions will have fewer minions or none at all if encountered on a higher dungeon level.
+
+**Monster Sub-Table Matrix**
+
+| **Level Beneath the Surface** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** |
+| ----------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| 1-2                           | 1-8   | 9-11  | 12    | —     | —     | —     | —     | —     | —     | —      |
+| 3                             | 1-5   | 6-8   | 9-10  | 11    | 12    | —     | —     | —     | —     | —      |
+| 4                             | 1-4   | 5-7   | 8-9   | 10    | 11    | 12    | —     | —     | —     | —      |
+| 5                             | 1-3   | 4-5   | 6-7   | 8-9   | 10    | 11    | 12    | —     | —     | —      |
+| 6                             | 1-2   | 3-4   | 5-6   | 7-8   | 9     | 10    | 11    | 12    | —     | —      |
+| 7                             | 1     | 2-3   | 4-5   | 6-7   | 8     | 9     | 10    | 11    | 12    | —      |
+| 8                             | 1     | 2     | 3-4   | 5-6   | 7     | 8     | 9     | 10    | 11    | 12     |
+| 9                             | 1     | 2     | 3     | 4-5   | 6-7   | 8     | 9     | 10    | 11    | 12     |
+| 10-11                         | 1     | 2     | 3     | 4     | 5-6   | 7-8   | 9     | 10    | 11    | 12     |
+| 12-13                         | 1     | 2     | 3     | 4     | 5     | 6-7   | 8-9   | 10    | 11    | 12     |
+| 14-15                         | 1     | 2     | 3     | 4     | 5     | 6     | 7-8   | 9-10  | 11    | 12     |
+| 16+                           | 1     | 2     | 3     | 4     | 5     | 6     | 7     | 8-9   | 10-11 | 12     |
+
+## Creating Unique Encounter Tables
+
+**Instructions:** If the GM wants to include new monsters on their encounter tables, the GM should make cross-reference monsters by level and frequency when filling each frequency slot with an appropriate monster using the template provided.
+
+**Unique Encounter Tables—level template**
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Very Rare | 2 |
+| 03-04 | Very Rare | 2 |
+| 05-07 | Very Rare or Rare | 3 |
+| 08-11 | Rare | 4 |
+| 12-15 | Rare | 4 |
+| 16-20 | Uncommon | 5 |
+| 21-25 | Uncommon | 5 |
+| 26-30 | Uncommon or Common | 5 |
+| 31-40 | Common | 10 |
+| 41-50 | Common | 10 |
+| 51-60 | Common | 10 |
+| 61-70 | Common | 10 |
+| 71-75 | Uncommon or Common | 5 |
+| 76-80 | Uncommon | 5 |
+| 81-85 | Uncommon | 5 |
+| 86-89 | Rare | 4 |
+| 90-93 | Rare | 4 |
+| 94-96 | Very Rare or Rare | 3 |
+| 97-98 | Very Rare | 2 |
+| 99-00 | Very Rare | 2 |`}
+/>
+
+### Monster Level One
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Devil, Asaggim | 1d10 |
+| 03-04 | Halfling | 3d6 |
+| 05-07 | NPC Party | varies |
+| 08-11 | Demon, Soul Worm | 1 |
+| 12-15 | Rat, Giant | 1d10×5 |
+| 16-20 | Vulchling | 1d4 |
+| 21-25 | Bat | 5d10 |
+| 26-30 | Goblin | 2d10 |
+| 31-40 | Men, Bandit | 2d4 |
+| 41-50 | Orc | 3d10 |
+| 51-60 | Frog, Giant | 1d8 |
+| 61-70 | Beetle, Giant Fire | 1d4 |
+| 71-75 | Kobold | 4d10 |
+| 76-80 | Dog, Wild | 1d4 |
+| 81-85 | Bat, Giant | 1d6 |
+| 86-89 | Skeleton | 1d10 |
+| 90-93 | Rot Grub | 5d4 |
+| 94-96 | Vilstrak | 1d6 |
+| 97-98 | Gnome | 4d6 |
+| 99-00 | Men, Berserker | 1d6 |`}
+/>
+
+### Monster Level Two
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | NPC Party | varies |
+| 03-04 | Giant Ant, Worker | 2d10 |
+| 05-07 | Poltergeist | 1 |
+| 08-11 | Flind | 1d12 |
+| 12-15 | Toad, Giant | 1d4 |
+| 16-20 | Grimlock | 2d10 |
+| 21-25 | Hobgoblin | 2d10 |
+| 26-30 | Dakon | 1d10 |
+| 31-40 | Piercer | 3d6 |
+| 41-50 | Troglodyte | 1d10 |
+| 51-60 | Badger, Giant | 1d2 |
+| 61-70 | Spider, Large | 1d8 |
+| 71-75 | Bugbear | 1d6 |
+| 76-80 | Gnoll | 2d10 |
+| 81-85 | Stirge | 1d10+5 |
+| 86-89 | Zombie | 1d8 |
+| 90-93 | Coffer Corpse | 1 |
+| 94-96 | Troll, Ice | 1d6 |
+| 97-98 | Centipede, Huge | 1d12 |
+| 99-00 | Dwarf | 4d4 |`}
+/>
+
+### Monster Level Three
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Ape, Carnivorous | 1d3 |
+| 03-04 | Centipede, Giant | 1d2 |
+| 05-07 | Rust Monster | 1d2 |
+| 08-11 | Wolf, Dire | 1d4 |
+| 12-15 | Harpy | 1d6 |
+| 16-20 | Ghoul | 1d6 |
+| 21-25 | Lycanthrope, Wererat | 1d8 |
+| 26-30 | Frog, Giant | 1d8 |
+| 31-35 | Devil, Lemure | 5d6 |
+| 36-40 | NPC Party—see Sub-table | varies |
+| 41-50 | Lizard, Giant | 1d6 |
+| 51-60 | Ogre | 1d10 |
+| 61-70 | Carrion Creeper | 1d6 |
+| 71-75 | Beetle, Giant Boring | 1d6 |
+| 76-80 | Bugbear | 2d8 |
+| 81-85 | Wight | 1d4 |
+| 86-89 | Fungi, Violet | 1d4 |
+| 90-93 | Dark Creeper | 1 |
+| 94-96 | Dragon—see Sub-table | 1 |
+| 97-98 | Zombie, Monster | 1d3 |
+| 99-00 | Spider, Huge | 1d6 |`}
+/>
+
+### Monster Level Three—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-30 | Black | Very Young | 1 |
+| 31-60 | Brass | Very Young | 1 |
+| 61-00 | White | Very Young | 1 |`}
+/>
+
+### Monster Level Four
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Amber Creeping Vine | 1 |
+| 03-04 | Spider, Giant | 1d2 |
+| 05-07 | Blink Dog | 1d4 |
+| 08-11 | Ghast | 1d3 |
+| 12-15 | Amber Creeping Vine Zombie | 1d2 |
+| 16-20 | Piercer | 3d6 |
+| 21-25 | Cockatrice | 1d3 |
+| 26-30 | Snake, Giant Boa | 1 |
+| 31-35 | Demon, Dretch | 2d4 |
+| 36-40 | NPC Party—see Sub-table | varies |
+| 41-50 | Beetle, Giant Stag | 1d6 |
+| 51-60 | Lycanthrope, Werewolf | 1d6 |
+| 61-70 | Devil, Spiked | 2d4 |
+| 71-75 | Snake, Giant Cobra | 1 |
+| 76-80 | Gargoyle | 1d8 |
+| 81-85 | Dragon—see Sub-table | 5 |
+| 86-89 | Shadow | 1d8 |
+| 90-93 | Lycanthrope, Wereboar | 1d4 |
+| 94-96 | Grey Ooze | 1d3 |
+| 97-98 | Hell Hound | 2d6 |
+| 99-00 | Crypt Thing | 1 |`}
+/>
+
+### Monster Level Four—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-10 | Black | Young/Sub-adult | 2/3 |
+| 11-20 | Blue | Very Young/Young | 1/2 |
+| 21-30 | Brass | Young/Sub-adult | 2/3 |
+| 31-35 | Bronze | Very Young/Young | 1/2 |
+| 36-50 | Copper | Very Young/Young | 1/2 |
+| 51-55 | Gold | Very Young/Young | 1/2 |
+| 56-70 | Green | Very Young/Young | 1/2 |
+| 71-80 | Red | Very Young/Young | 1/2 |
+| 81-85 | Silver | Very Young/Young | 1/2 |
+| 86-00 | White | Young/Sub-adult | 2/3 |`}
+/>
+
+### Monster Level Five
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Genie | 1 |
+| 03-04 | Caryatid Column | 1d4 |
+| 05-07 | Medusa | 1d2 |
+| 08-11 | Mobat | 1d4 |
+| 12-15 | Tiger, Smilodon | 1 |
+| 16-20 | Minotaur | 1d8 |
+| 21-25 | Scorpion, Giant | 1d2 |
+| 26-30 | Snake, Giant Boa | 1 |
+| 31-40 | Demon, Shub | 1d4 |
+| 41-50 | Bear, Greater Cave | 1d2 |
+| 51-60 | NPC Party—see Sub-table | varies |
+| 61-70 | Devil, Manalishi; Red | 1d4 |
+| 71-75 | Dragon—see Sub-table | 1 |
+| 76-80 | Spider, Phase | 1 |
+| 81-85 | Hydra, 5 or 6 heads | 1 |
+| 86-89 | Ogre Mage | 1d3 |
+| 90-93 | Lycanthrope, Werebear | 1d4 |
+| 94-96 | Caterwaul | 1 |
+| 97-98 | Hell Hound | 2d6 |
+| 99-00 | Snake, Giant Amphisbaena | 1 |`}
+/>
+
+### Monster Level Five—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-08 | Black | Young Adult/Adult | 4/5 |
+| 09-18 | Blue | Sub-Adult/Young Adult | 3/4 |
+| 19-30 | Brass | Young Adult/Adult | 4/5 |
+| 31-35 | Bronze | Sub-Adult/Young Adult | 3/4 |
+| 36-50 | Copper | Sub-Adult/Young Adult | 3/4 |
+| 51-55 | Gold | Sub-Adult/Young Adult | 3/4 |
+| 56-70 | Green | Sub-Adult/Young Adult | 3/4 |
+| 71-80 | Red | Sub-Adult/Young Adult | 3/4 |
+| 81-87 | Silver | Sub-Adult/Young Adult | 3/4 |
+| 88-00 | White | Young Adult/Adult | 4/5 |`}
+/>
+
+### Monster Level Six
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Wraith | 1d6 |
+| 03-04 | Demon, Quasit | 1 |
+| 05-07 | Coeurl | 1d4 |
+| 08-11 | Mummy | 1d4 |
+| 12-15 | Dragon - see Sub-table | 1 |
+| 16-20 | Devil, Erinyes | 1d3 |
+| 21-25 | Troll | 1d12 |
+| 26-30 | Otyugh, Lesser | 1d2 |
+| 31-35 | Devil, Manalishi; (1-2) Black; (3-4) Blue; (5-6) Green, (7-8) White | 1d3 |
+| 36-40 | NPC Party—see Sub-table | varies |
+| 41-50 | Giant, Hill | 1d10 |
+| 51-60 | Wight | 1d8 |
+| 61-70 | Sphinx; (1-3) Gyno-, (4-6) Hieraco- | 1 |
+| 71-75 | Wyvern | 1d3 |
+| 76-80 | Hydra, 7 or 8 heads | 5 |
+| 81-85 | Manticore | 1d2 |
+| 86-89 | Troll, Giant | 1d12 |
+| 90-93 | Lizard, Giant Monitor | 1d4 |
+| 94-96 | Hell Hound | 2d6 |
+| 97-98 | Banshee | 1 |
+| 99-00 | Spectral Troll | 1d2 |`}
+/>
+
+### Monster Level Six—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-10 | Black | Old | 6 |
+| 11-20 | Blue | Adult | 5 |
+| 21-30 | Brass | Old | 6 |
+| 31-35 | Bronze | Adult | 5 |
+| 36-50 | Copper | Adult | 5 |
+| 51-55 | Gold | Adult | 5 |
+| 56-70 | Green | Adult | 5 |
+| 71-80 | Red | Adult | 5 |
+| 81-85 | Silver | Adult | 5 |
+| 86-00 | White | Old | 6 |`}
+/>
+
+### Monster Level Seven
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-02 | Golem; (1-3) Clay, (4-6) Flesh | 1 |
+| 03-04 | Giant, Ettin | 1d2 |
+| 05-07 | Chimæra | 1d4 |
+| 08-11 | Spectre | 1d4 |
+| 12-15 | Basilisk | 1d2 |
+| 16-20 | Giant; (1-3) Fire, (4-6) Stone | 1d8 |
+| 21-25 | Demon, Babau | 1d3 |
+| 26-30 | Sphinx; (1-3) Andro-, (4-6) Crio- | 1 |
+| 31-35 | Lamia | 1 |
+| 36-40 | NPC Party—see Sub-table | varies |
+| 41-50 | Lizard, Giant; (1-3) Fire, (4-6) Cave | 1d2 |
+| 51-55 | Skeleton Warrior | 1 |
+| 56-60 | Shedu | 1d2 |
+| 61-70 | Will-o-the-wisp | 1 |
+| 71-75 | Naga, Spirit | 1d3 |
+| 76-80 | Devil; (1-3) Bearded, (4-6) Bone | 1d2 |
+| 81-85 | Hydra, 9 or 10 heads | 1 |
+| 86-89 | Dragon—see Sub-table | 1 |
+| 90-93 | Cyclops | 1 |
+| 94-96 | Barghest | 1 |
+| 97-98 | Troll, Giant Two-headed | 1d3 |
+| 99-00 | Afreet | 1 |`}
+/>
+
+### Monster Level Seven—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-10 | Black | Very Old | 7 |
+| 11-20 | Blue | Old | 6 |
+| 21-30 | Brass | Very Old | 7 |
+| 31-35 | Bronze | Old | 6 |
+| 36-50 | Copper | Old | 6 |
+| 51-55 | Gold | Old | 6 |
+| 56-70 | Green | Old | 6 |
+| 71-80 | Red | Old | 6 |
+| 81-85 | Silver | Old | 6 |
+| 86-00 | White | Very Old | 7 |`}
+/>
+
+### Monster Level Eight
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-03 | Naga, Guardian | 1d2 |
+| 04-07 | Golem, Stone | 1 |
+| 08-11 | Giant, Cloud | 1 |
+| 12-15 | Vampire | 1d2 |
+| 16-20 | Devil, Ice | 1 |
+| 21-25 | Devil, Barbed | 1d2 |
+| 26-30 | Otyugh, Lesser | 1d2 |
+| 31-40 | Demon, Class A | 1d3 |
+| 41-50 | NPC Party—see Sub-table | varies |
+| 51-60 | Demon, Ekivu | 5d4 |
+| 61-70 | Hydra, 11 or 12 heads | 1 |
+| 71-80 | Elemental; (1-2) Earth, (3-4) Air, (5-6) Fire, (7-8) Water | 1 |
+| 81-89 | Dragon—see Sub-table | 1 |
+| 90-93 | Lammasu | 1d4 |
+| 94-00 | Ghost | 1 |`}
+/>
+
+### Monster Level Eight—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-12 | Black | Ancient | 8 |
+| 13-25 | Blue | Very Old | 7 |
+| 26-30 | Brass | Ancient | 8 |
+| 31-35 | Bronze | Very Old | 7 |
+| 36-45 | Copper | Very Old | 7 |
+| 46-50 | Gold | Very Old | 7 |
+| 51-60 | Green | Very Old | 7 |
+| 61-80 | Red | Very Old | 7 |
+| 81-85 | Silver | Very Old | 7 |
+| 86-00 | White | Ancient | 8 |`}
+/>
+
+### Monster Level Nine
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-07 | Trapper | 1 |
+| 08-11 | Devil, Pit Fiend | 1 |
+| 12-30 | Otyugh, Greater | 1 |
+| 26-40 | NPC Party—see Sub-table | varies |
+| 41-55 | Class B Demon | 1d3 |
+| 56-70 | Hydra, 12-heads | 1 |
+| 71-80 | Dragon—see Sub-table | 1 or 2 |
+| 81-89 | Purple Worm | 1d2 |
+| 90-93 | Demonette | 1 |
+| 94-96 | Roper | 1d4 |
+| 97-00 | Golem, Iron | 1 |`}
+/>
+
+### Monster Level Nine—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-12 | 2× Black | Ancient+Old | 8+6 |
+| 13-25 | Blue | Ancient | 8 |
+| 26-30 | 2× Brass | Ancient+Old | 8+6 |
+| 31-35 | Bronze | Ancient | 8 |
+| 36-45 | Copper | Ancient | 8 |
+| 46-50 | Gold | Ancient | 8 |
+| 51-60 | Green | Ancient | 8 |
+| 61-80 | Red | Ancient | 8 |
+| 81-85 | Silver | Ancient | 8 |
+| 86-00 | 2× White | Ancient+Very Old | 8+7 |`}
+/>
+
+### Monster Level Ten
+
+<RollableTable
+  input={`| **d%** | **Monster Encountered** | **#** |
+|-|-|-|
+| 01-07 | Demon, Class E | 1d3 |
+| 08-11 | Giant, Storm | 1 |
+| 12-15 | Otyugh, Greater | 1 |
+| 16-20 | NPC Party—see Sub-table | varies |
+| 21-30 | Demon, Class C | 1d3 |
+| 31-40 | Elemental, Earth | 1 |
+| 41-50 | Elemental, Air | 1 |
+| 51-60 | Elemental, Fire | 1 |
+| 61-70 | Elemental, Water | 1 |
+| 71-80 | Demon, Class D | 1d3 |
+| 81-89 | Dragon—see Sub-table | 2 |
+| 90-95 | Demon, Class F | 1d3 |
+| 96-00 | Lich | 1 |`}
+/>
+
+### Monster Level Ten—Dragon Sub-table
+
+<RollableTable
+  input={`| **d%** | **Type** | **Age** | **Hit Points per HD** |
+|-|-|-|-|
+| 01-20 | Blue | Ancient+Very Old | 8+7 |
+| 21-25 | Bronze | Ancient+Very Old | 8+7 |
+| 26-35 | Copper | Ancient+Very Old | 8+7 |
+| 36-40 | Gold | Ancient+Old | 8+6 |
+| 41-60 | Green | Ancient+Very Old | 8+7 |
+| 61-95 | Red | Ancient+Old | 8+6 |
+| 96-00 | Silver | Ancient+Old | 8+6 |`}
+/>
