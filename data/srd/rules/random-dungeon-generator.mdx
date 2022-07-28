@@ -1,0 +1,428 @@
+---
+title: Random Dungeon Generator
+date: '2022-07-14'
+tags: ['Chapter 1', 'Creating a Character']
+draft: false
+---
+
+import RollableTable from 'components/RollableTable'
+
+This GM aid is designed for on-the-fly dungeon generation when a gaming session takes an unexpected turn. It can also serve to spur the imagination when one's artistic abilities fail and can even be used for solo play. The following tables should be appropriate for everything from one level side-quests to generating add-on levels for the GM's own mega-dungeon. The GM is advised to freely "fudge" the die roll if an impossible result is generated. If the tables dictate a room which will not fit in the available space, for instance, then either resize the room or re-roll. Remember at all times the random dungeon generator is an aid rather than a hard and fast set of rules. For the purposes of this table OSRIC defines a room as having exits which are closed by a door or other portal, whereas a chamber has open exits such as archways.
+
+## How To Create A Random Dungeon
+
+1. Roll or pick a starting area on Table 1. If the pre-generated starting areas are used, skip to step #6. If an empty starting area is desired, then skip to step #7.
+2. Roll room shape and size on Table 2(a) or Table 2(b).
+3. Roll number of exits on Table 5.
+4. Roll for location of room exits on Table 6.
+5. Roll direction for chamber exit passages on Table 7, or what lies beyond the door for rooms on Table 20.
+6. Roll contents for room on Table 8, consult sub-tables for content as indicated.
+7. If no particular table is indicated, the corridor continues for 30-ft. Then check Table 18: General.
+
+After the room is completely resolved, begin rolling up the various corridors and rooms generated in step #4 using the steps above as a guideline.
+
+**Table 1: Starting locations.** Use this table if you are starting from scratch. If you already have a starting location go to Table 7: Exit Direction, Passage or Table 19: Behind the Door; as appropriate. If you wish to begin your dungeon with a more standard starting room result proceed to Table 2: Rooms & Chambers.
+
+## Table 1: Starting Area Shape
+
+<RollableTable
+  input={`|  **D6**  |**Starting Area**|  **D6**  |**Starting Area**|
+|-|-|-|-|
+|  1  |Use area 1|  4  |Use area 4|
+|  2  |Use area 2|  5  |Use area 5|
+|  3  |Use area 3|  6  |Use area 6|`}
+/>
+
+## Table 2: Rooms & Chamber
+
+### Table 2(a): Room
+
+<RollableTable
+  input={`| **D6** |**Room Size**| **D6** |**Room Size**|
+  |-|-|-|-|
+| 1 |10-ft×10-ft| 12-13 |20-ft×30-ft|
+| 2-4 |20-ft×20-ft| 14-15 |20-ft×40-ft|
+| 5-7 |30-ft×30-ft| 16-18 |30-ft×40-ft|
+| 8-10 |40-ft×40-ft| 19-20 |Special\*|
+| 11 |10-ft×20-ft| | |`}
+/>
+
+\*refer to Table 3: Special Rooms or Chambers.
+
+Proceed to Table 5: Number of Exits
+
+### Table 2(b): Chambers
+
+<RollableTable
+  input={`| **D20** |**Chamber**| **D20** |**Chamber**|
+  |-|-|-|-|
+| 1 |10-ft×20-ft| 11-13 |20-ft×40-ft|
+| 2-4 |20-ft×20-ft| 14-15 |40-ft×50-ft|
+| 5-6 |30-ft×30-ft| 16-17 |40-ft×60-ft|
+| 7-8 |40-ft×40-ft| 18-20 |Special\*|
+| 9-10 |20-ft×30-ft|||`}
+/>
+
+\*refer to Table 3: Special Rooms or Chambers.
+
+Proceed to Table 5: Number of Exits
+
+## Table 3: Special Rooms or Chambers
+
+<RollableTable
+  input={`| **D20** |**Shape**| **D20** |**Shape**|
+  |-|-|-|-|
+| 1 |Cave| 11-12 |Oval|
+| 2-6 |Circular\*| 13-14 |Special%%\*\*%%|
+| 7-8 |Hexagonal| 15-17 |Trapezoidal|
+| 9-10 |Octagonal| 18-20 |Triangular|`}
+/>
+
+\*Roll 1d20: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
+
+\*\*GM's discretion. Freehand draw an unusual shape, or pick a standard room as needed for mapping needs, or re-roll.
+
+Proceed to Table 4: Approximate Size Table for Unusual Rooms
+
+## Table 4: Approximate Size Table for Unusual Rooms
+
+<RollableTable
+  input={`| **D20** |**Size (square-ft)**| **D20** |**Size (square-ft)**|
+  |-|-|-|-|
+| 1-3 |500| 11-12 |3,250|
+| 4-6 |1,000| 13-15 |4,000|
+| 7-8 |1,500| 16-20 |re-roll\*|
+| 9-10 |2,500| ||`}
+/>
+
+\*Roll again and add result to 1,000 square-ft. If 15-20 is rolled a second time, increase base square footage to 2,000 and re-roll. Each subsequent roll of 16-20 adds an additional 1,000 square-ft until a result of 1-15 is obtained.
+
+Proceed to Table 5: Number of Exits
+
+## Table 5: Number of Exits
+
+<RollableTable
+  input={`| **D20** | **Room Area (square-ft)** | **# Exits**  | **Room Area (square-ft)** | **# Exits** |
+|-|-|-|-|-|
+| 1-4 | < 500 | 1  | > 500 | 2 |
+| 5-7 | < 500 | 2  | > 500 | 3 |
+| 8-9 | < 500 | 3  | > 500 | 4 |
+| 10-12 | < 1,000 | 0*  | > 1,000 | 1 |
+| 13-15 | < 1,500 | 0*  | > 1,500 | 1 |
+| 16-19 | Any | 1d4  | Any | 1d4 |
+| 20 | Any | 1%%**%%  | Any | 1%%** |`}
+/>
+
+\*Check for secret doors: any section of wall close to another mapped room or passage has a 25% chance of a secret door, otherwise this room/chamber is a dead end.
+
+\*\*This result switches things up a bit. If rolling for a room exit, this result calls for a passage. If rolling for a chamber exit this result indicates a door.
+
+Proceed to Table 6: Exit Location
+
+## Table 6: Exit Location
+
+<RollableTable
+  input={`| **D20** |**Location**| **D20** |**Location**|
+|-|-|-|-|
+| 1-4 |Left wall| 13-16 |Right wall|
+| 5-12 |Opposite wall| 17-20 |Same wall|`}
+/>
+
+\*If a passage or door placement per the above table would open into a previously mapped space, roll 1d20. The door will be moved to the opposite wall on a 1-10, the door remains where it is but is a secret door on an 11-15, the door remains where it is but is a one-way door on a roll of 16-20.
+
+If Passage, Proceed to Table 7: Exit Direction, Chamber Passage. If Door, Proceed to Table 20: Behind the Door
+
+## Table 7: Exit Direction, Chamber Passage
+
+This table is for use with passages (which exit a chamber). For doors, consult Table 20: Behind the Door.
+
+<RollableTable
+  input={`| **D20** | Direction |
+|-|-|
+| 1-16 | Straight |
+| 17-18 | Left 45 degrees |
+| 19-20 | Right 45 degrees\* |`}
+/>
+
+\* If passage cannot bend in the direction indicated, bend the passage the other way. For example, a left 45 degree bend would become a right 45 degree bend.
+
+Proceed to Table 22: Passage Width
+
+## Table 8: Chamber or Room Contents
+
+<RollableTable
+  input={`| **D20** |Result|
+|-|-|
+| 1-7 |Empty|
+| 8-11 |Monster (determine randomly)|
+| 12-17 |Monster and Treasure (refer to GM monster tables and see Table 9: Treasure)|
+| 18 |Stairs (see Table 13: Stairs)|
+| 19 |Trick or Trap (see above)|
+| 20 |Treasure (see Chapter 5: Treasure and Table 9)|`}
+/>
+
+Proceed to Table 9: Treasure Container
+
+## Table 9: Treasure Container
+
+<RollableTable
+  input={`| **D20** |**Container**| **D20** |**Container**|
+|-|-|-|-|
+| 1-2 |Bags| 11-12 |Pottery Jars|
+| 3-4 |Sacks| 13-14 |Metal Urns|
+| 5-6 |Coffers| 15-16 |Stone Containers|
+| 7-8 |Chests| 17-18 |Iron Trunks|
+| 9-10 |Large Chests| 19-20 |None, loose|`}
+/>
+
+**Optional, or 50% chance:** Consult Tables 10 and 11. Treasure amounts are determined on Table 12.
+
+## Table 10: Treasure Guards & Wards
+
+<RollableTable
+  input={`| **D20** |Treasure|
+|-|-|
+| 1-2 |Blade scything across inside|
+| 3-4 |Contact poison on container|
+| 5-6 |Contact poison on treasure|
+| 7 |Gas released by opening container|
+| 8 |Explosive runes|
+| 9-10 |Poisoned needles in lock|
+| 11 |Poisoned needles in handles|
+| 12 |Poisonous insect or reptile living inside container|
+| 13 |Spears released from walls when container opened|
+| 14 |Spring darts firing from front of container|
+| 15 |Spring darts firing from top of container|
+| 16 |Spring darts firing up from inside bottom of container|
+| 17 |Stone block dropping in front of container|
+| 18 |Symbol|
+| 19 |Trapdoor opening in front of container|
+| 20 |Trapdoor opening 6-ft in front of container|`}
+/>
+
+## Table 11: Treasure Hidden By or In
+
+<RollableTable
+  input={`| **D20** |Hidden by or in|
+|-|-|
+| 1-2 |Behind a loose wall stone|
+| 3-4 |Illusion to change appearance or hide item|
+| 5-7 |Invisibility|
+| 8-11 |In a nearby secret room|
+| 12 |In an ordinary container in plain view|
+| 13 |Inside or under trash or dung heap|
+| 14 |Non-magically disguised|
+| 15 |Secret space under container|
+| 16-17 |Secret compartment in container|
+| 18-20 |Under a loose flooring stone|`}
+/>
+
+## Table 12: Treasure Amount
+
+If the treasure is guarded by a monster, roll twice and add 1 to each roll. Otherwise roll once at no bonus.
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-5 |2d10×100cp|
+| 6-10 |2d10×100 sp|
+| 11-13 |2d8×100 ep|
+| 14-15 |1d4×100 gp|
+| 16-17 |2d10×10pp|
+| 18 |Gems/Jewellery—roll 1d8, 1-5 = 1d3 gems, 6-8 = 1 jewellery|
+| 19 |Roll 1d8, 1-5 = no treasure, 6-8 = 1 magic item|
+| 20 |1 magic item|`}
+/>
+
+Results from this table should be multiplied by the level of the dungeon concerned. So if the party is on the third dungeon level and the d20 shows "13", they will receive 3d4×100 gp rather than 1d4. If the party is on the fifth dungeon level and a magic item is rolled, the party actually receives 5 magic items. The GM should adjust any extreme results to keep them proportional.
+
+## Table 13: Stairs
+
+<RollableTable
+  input={`| **D20** |**Result**| **D20** |**Result**|
+|-|-|-|-|
+| 1-5 |Down 1 level| 12 |Chimney up 1 level, passage continues|
+| 6 |Down 2 levels| 13 |Chimney up 2 levels, passage continues|
+| 7 |Down 3 levels| 14 |Chimney down 2 levels, passage continues|
+| 8-9 |Up 1 level| 15-16 |Trap door down 1 level, passage continues|
+| 10 |Up to a dead end| 17 |Trap door down 2 levels, passage continues|
+| 11 |Down to a dead end| 18-20 |Down 1 level into chamber|`}
+/>
+
+## Table 14: Caves
+
+**Note:** The lowest levels of dungeons are often composed of caves and caverns. Use this table for caves and roll for exits on Table 5.
+
+<RollableTable
+  input={`| **D20** |**Cave**|
+|-|-|
+| 1-5 |Cave 40-ft×60-ft|
+| 6-7 |Cave 50-ft×75-ft|
+| 8-9 |Double Cave: 30-ft×30-ft, 60-ft×60-ft|
+| 10-11 |Double Cave: 30-ft×50-ft, 80-ft×100-ft*|
+| 12-14 |Cavern 100-ft×125-ft*|
+| 15-16 |Cavern 125-ft×150-ft|
+| 17-18 |Cavern 150-ft×200-ft\*|
+| 19-20 |Cavern 300-ft×400-ft%%**%%|`}
+/>
+
+\*Roll on Table 15: Pools.
+
+\*\*Roll on Table 16: Lakes.
+
+## Table 15: Pools
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-12 |No pool|
+| 13-14 |Pool|
+| 15-16 |Pool, monster|
+| 17-19 |Pool, monster, and treasure|
+| 20 |Magic pool, go to Table 17: Magic Pools|`}
+/>
+
+## Table 16: Lakes
+
+GMs should note the opportunity to use aquatic or amphibious monster encounters.
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-12 |No lake|
+| 13-15 |Lake|
+| 16-17 |Lake, monster|
+| 18-19 |Lake, monster and treasure|
+| 20 |Enchanted Lake*|`}
+/>
+
+\*Lake serves as a portal to special area such as a temple on the Elemental Plane of Water or other remote and exotic location. If no map is prepared the GM should treat this as a result of: lake, monster, treasure.
+
+## Table 17: Magic Pools
+
+In order to learn the secret of a magic pool, adventurers must actually enter the water.
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-8 |Roll 1d20. Pool turns gold pieces into platinum pieces (1-12) or lead (13-20); after doing this once, pool is non-magical.|
+| 9-15 |Characters in pool will either lose (01-50 on d%) or gain (51-00) 1 point from a randomly-determined attribute. Roll 1d6: 1=strength, 2=dexterity, 3=constitution, 4=intelligence, 5=wisdom, 6=charisma. One time only effect, each character checked separately for loss or gain and affected characteristic.|
+| 16-17 |Talking pool, will grant 1 wish to any characters of like alignment and damage all others (1d20 points). Wish must be used within 24 hours. Roll 1d20 for pool's alignment: 1-6 LG; 7-9 LE; 10-12 CG; 13-17 CE; 18-20 TN.|
+| 18-20 |Transporter pool. Roll 1d20: 1-7 back to surface; 8-12 elsewhere on level; 13-16 1 level down; 17-20 many miles away for wilderness or outdoor adventure. This one can be especially fiendish if not all characters in the party are standing in the pool.|`}
+/>
+
+## Table 18: General
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-3 |Chamber. Roll on Table 2(b): Chambers. Check again on this table 30-ft after leaving chamber|
+| 4 |Continue straight, check this table again in 50-ft|
+| 5 |Dead End, check for secret doors as per Table 6: Exit Location|
+| 6-10 |Door. Consult Table 19: Door Location, if result is not a straight ahead door result check this table again in 30-ft|
+| 11-14 |Side passage. See Table 21: Side Passages, check this table again in 30-ft|
+| 15 |Stairs. Go to Table 13: Stairs|
+| 16-19 |Turn. Consult Table 24: Turns and check this table again in 30-ft|
+| 20 |Wandering Monster, re-roll on this table to determine monster location and approach|`}
+/>
+
+## Table 19: Door Location
+
+If door indicated is a left or right door, roll 1d20 again. On a result of 1-3 there is also a door on the opposite side.
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-6 |Left|
+| 7-12 |Right|
+| 13-20 |Ahead|`}
+/>
+
+## Table 20: Behind the Door
+
+This table is for use with doors that exit a room. For passages, consult Table 7: Exit Direction, Chamber Passage. Always check width of corridors on Table 22: Passage Width.
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-3 |Side door: parallel passage. Door straight ahead: 10-ft×10-ft room|
+| 4-8 |Straight passage|
+| 9 |Passage 45 degrees left|
+| 10 |Passage 45 degrees right|
+| 11-18 |See Table 2(a): Rooms|
+| 19-20 |See Table 2(b): Chambers|`}
+/>
+
+## Table 21: Side Passages
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|
+| 1-4 |left 90 degrees|
+| 5-8 |right 90 degrees|
+| 9 |left 45 degrees (d6, 1-3 ahead, 4-6 behind)|
+| 10 |right 45 degrees (d6, 1-3 ahead, 4-6 behind)|
+| 11-13 |passage T's|
+| 14-15 |passage Y's|
+| 16-19 |four-way intersection|
+| 20 |five-way intersection*|`}
+/>
+
+\* Usually two passages along the x-axis, two along the y-axis, and one diagonal.
+
+## Table 22: Passage Width
+
+<RollableTable
+  input={`| **D20** | **Width** |
+|-|-|
+| 1 | 5-ft |
+| 2-13 | 10-ft |
+| 14-17 | 20-ft |
+| 18 | 30-ft |
+| 19-20 | See Table 23: Special Passages |`}
+/>
+
+Proceed to Table 18: General
+
+## Table 23: Special Passages
+
+<RollableTable
+  input={`| **D20** |**Result**| **D20** |**Result**|
+|-|-|-|-|
+| 1-7 |40-ft wide*| 16-19 |river**|
+| 8-12 |50-ft wide*| 20 |chasm****|
+| 13-15 |stream***| ||`}
+/>
+
+\* There is a 50% chance that the passage contains a single or double row of columns. If a double row, there is a 10% chance the columns support a balcony or gallery above.
+
+\*\* Determine passage width via an additional roll. The stream bisects the passage. It will be bridged 75% of the time.
+
+\*\*\* Determine passage width via an additional roll. The river bisects the passage. It will be bridged 50% of the time or have a boat 25% of the time (50% chance the boat is on the player's side).
+
+\*\*\*\* Determine passage width via an additional roll. The chasm bisects the passage and is a long sheer drop (nominally 100-ft). It will be bridged 50% of the time or have a narrower spot suitable for jumping across 25% of the time.
+
+## Table 24: Turns
+
+<RollableTable
+  input={`| **D20** |**Result**|
+|-|-|-|-|
+| 1-9 |left 90 degrees|
+| 10 |left 45 degrees (d6, 1-3 ahead, 4-6 behind)|
+| 11-19 |right 90 degrees|
+| 20 |right 45 degrees (d6, 1-3 ahead, 4-6 behind)|`}
+/>
+
+## Using the Random Dungeon Generator for Solo Play
+
+OSRIC is not really designed for solo play, but it is possible to use this random dungeon generator for such a purpose.
+
+**Start with Table 1:** Starting locations in the middle of a sheet of graph paper. Use the charts from the OSRIC random encounters section to resolve the various monster encounters and generate treasure. You can appeal to your friends at your local gaming club or on-line for sealed information to use with special encounters and areas.
+
+To resolve listening at doors, roll 1d12 and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents but treat any result as including a monster encounter. Otherwise, any monster encounters rolled should be ignored unless the creatures would be silent (undead, bugbears, etc.).
+
+ESP, scrying, and other means of magical detection can be resolved in the following manner. A roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using the relevant GM table and ignoring any monster of the two methods, with designed areas surrounded by randomly-generated areas.
+
+**Stocking the Dungeon:** You may wish to use the "Random Encounters" section that follows to stock your dungeon, or you may wish to design specific areas without reference to random tables. Many GMs use a mixture of the two methods, with designed areas surrounded by randomly-generated areas.
+
+The degree to which dungeon "ecology" matters is up to the individual GM. Some GMs give thought to food sources, water sources and latrine facilities; others do not bother. The authors recommend the following golden rule: Dungeons don't have to make sense, but they do need to be full of variety. Having said this, a little thought on the placement of creatures doesn't go amiss—if there's some logic behind the dungeon, then it's easier for skilled players to work out what's going on and use it to their advantage, and rewarding player skill is an important aspect of the OSRIC system.

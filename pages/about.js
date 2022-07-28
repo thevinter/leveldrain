@@ -1,5 +1,6 @@
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
+import { ReactMarkdown } from 'react-markdown'
 
 const DEFAULT_LAYOUT = 'AuthorLayout'
 

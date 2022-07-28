@@ -31,6 +31,15 @@ module.exports = {
         primary: colors.slate,
         gray: colors.neutral,
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 100ms ease-in-out',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
