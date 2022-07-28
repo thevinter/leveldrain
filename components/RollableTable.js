@@ -129,7 +129,7 @@ export default function RollableTable({ debug, input }) {
             className={`${effect && 'animate-wiggle'} pl-2`}
           >
             {' '}
-            {result[0]}
+            {result.join(' - ')}
           </div>
         </div>
       </div>
