@@ -93,21 +93,184 @@ export default function Projects() {
               <h4 className="font-bold text-gray-700 underline">
                 <Link href="/srd/rules/equipment">Equipment</Link>
               </h4>
-              <h4 className="pt-5 text-xl font-bold">Spells:</h4>
-              <ul className="list-disc pl-10 text-gray-700 underline">
-                <li className="underline">
-                  <Link href="/srd/rules/cleric-spells">Cleric Spells</Link>
-                </li>
-                <li className="underline">
-                  <Link href="/srd/rules/druid-spells">Druid Spells</Link>
-                </li>
-                <li className="underline">
-                  <Link href="/srd/rules/magic-user-spells">Magic User Spells</Link>
-                </li>
-                <li className="underline">
-                  <Link href="/srd/rules/illusionist-spells">Illusionist Spells</Link>
-                </li>
-              </ul>
+            </div>
+
+            <div className="container pb-20">
+              <div className="-m-4">
+                <h1 className="mb-5 text-2xl">Spells:</h1>
+                <ul className="list-disc pl-10 text-gray-700 underline">
+                  <li className="underline">
+                    <Link href="/srd/rules/cleric-spells">Cleric Spells</Link>
+                  </li>
+                  <li className="underline">
+                    <Link href="/srd/rules/druid-spells">Druid Spells</Link>
+                  </li>
+                  <li className="underline">
+                    <Link href="/srd/rules/magic-user-spells">Magic User Spells</Link>
+                  </li>
+                  <li className="underline">
+                    <Link href="/srd/rules/illusionist-spells">Illusionist Spells</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="container pb-20">
+              <div className="-m-4">
+                <h1 className="mb-5 text-2xl">
+                  <Link href="/srd/rules/how-to-play">How To Play The First Time</Link>
+                </h1>
+                <div className="ml-5">
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/time-measurement">Time Measurement</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/movement">Movement</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/encumbrance-and-base-movement-rate">
+                      Encumbrance And Base Movement Rate
+                    </Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/gaining-levels">Gaining Levels</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/experience">Experience</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/light-and-vision">Light And Vision</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/infravision">Infravision</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/falling">Falling</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/item-saving-throws">Item Saving Throws</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/combat">Combat</Link>
+                  </h4>
+                  <ul className="list-disc pl-10 text-gray-700 underline">
+                    <li className="underline">
+                      <Link href="/srd/rules/combat-actions">Combat Actions</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/combat-modifiers">Combat Modifiers</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/attack-and-saving-throw-matrices-for-monsters">
+                        Attack And Saving Throw Matrices For Monsters
+                      </Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/turning-the-undead">Turning The Undead</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/damage-and-death">Damage And Death</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/natural-healing">Natural Healing</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/subdual-damage">Subdual Damage</Link>
+                    </li>
+                  </ul>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/life-energy-levels-and-leveldrain">
+                      Life Energy Levels and Level Drain
+                    </Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/morale">Morale</Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/poison-disease-insanity">
+                      Poison, Disease and Insanity
+                    </Link>
+                  </h4>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/hirelings-and-henchmen">Hirelings And Henchmen</Link>
+                  </h4>
+                  <ul className="list-disc pl-10 text-gray-700 underline">
+                    <li className="underline">
+                      <Link href="/srd/rules/standard-hirelings">Standard Hirelings</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/expert-hirelings">Expert Hirelings</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/henchmen">Henchmen</Link>
+                    </li>
+                  </ul>
+                  <h4 className="font-bold text-gray-700 underline">
+                    <Link href="/srd/rules/how-to-play">Adventure And Exploration</Link>
+                  </h4>
+                  <ul className="list-disc pl-10 text-gray-700 underline">
+                    <li className="underline">
+                      <Link href="/srd/rules/searching-the-dungeon">Searching The Dungeon</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/exploring-the-wilderness">
+                        Exploring The Wilderness
+                      </Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/aerial-agility">Aerial Agility</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/adventures-in-town">Adventures In Town</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/exploring-the-planes">Exploring The Planes</Link>
+                    </li>
+                    <li className="underline">
+                      <Link href="/srd/rules/an-example-dungeon">An Example Dungeon</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="container py-12">
+                <div className="-m-4">
+                  <div className="ml-5">
+                    <h1 className="-ml-5 mb-5 text-2xl">Dungeons, Towns and Wildernesses</h1>
+                    <h4 className="font-bold text-gray-700 underline">
+                      <Link href="/srd/rules/dungeons">Dungeons</Link>
+                    </h4>
+                    <ul className="list-disc pl-10 text-gray-700 underline">
+                      <li className="underline">
+                        <Link href="/srd/rules/trap-generation-and-placement">
+                          Trap Generation And Placement
+                        </Link>
+                      </li>
+                      <li className="underline">
+                        <Link href="/srd/rules/random-dungeon-generation">
+                          Random Dungeon Generation
+                        </Link>
+                      </li>
+                    </ul>
+                    <h4 className="font-bold text-gray-700 underline">Random Encounters</h4>
+                    <ul className="list-disc pl-10 text-gray-700 underline">
+                      <li className="underline">
+                        <Link href="/srd/rules/random-dungeon-encounters">
+                          Random Dungeon Encounters
+                        </Link>
+                      </li>
+                      <li className="underline">
+                        <Link href="/srd/rules/random-urban-encounters">
+                          Random Urban Encounters
+                        </Link>
+                      </li>
+                      <li className="underline">
+                        <Link href="/srd/rules/random-wilderness-encounters">
+                          Random Wilderness Encounters
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="py-3">
               Consider{' '}
