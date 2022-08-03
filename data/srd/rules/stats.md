@@ -95,25 +95,25 @@ being raised from the dead (Survive Resurrection/Raise Dead)
 and to survive a traumatic magical change in form, such as that
 caused by a polymorph spell (Survive System Shock).
 
-| Constitution Score | Hit Point Bonus per Die                       | Survive Resurrection/Raise Dead (d%) | Survive System Shock (minor test) (d%) |
-| ------------------ | --------------------------------------------- | ------------------------------------ | -------------------------------------- |
-| 3                  | -2                                            | 40                                   | 35                                     |
-| 4                  | -1                                            | 45                                   | 40                                     |
-| 5                  | -1                                            | 50                                   | 45                                     |
-| 6                  | -1                                            | 55                                   | 50                                     |
-| 7                  | 0 6                                           | 0                                    | 55                                     |
-| 8                  | 0 6                                           | 5                                    | 60                                     |
-| 9                  | 0 7                                           | 0                                    | 65                                     |
-| 1                  | 0 0                                           | 75                                   | 70                                     |
-| 1                  | 1 0                                           | 80                                   | 75                                     |
-| 1                  | 2 0                                           | 85                                   | 80                                     |
-| 1                  | 3 0                                           | 90                                   | 85                                     |
-| 1                  | 4 0                                           | 92                                   | 88                                     |
-| 1                  | 5 +1                                          | 94                                   | 91                                     |
-| 1                  | 6 +2                                          | 96                                   | 95                                     |
-| 1                  | 7 +2 (+3 for Fighters, Paladins, and Rangers) | 98                                   | 97                                     |
-| 18                 | +2 (+4 for Fighters, Paladins, and Rangers)   | 100                                  | 99                                     |
-| 19                 | +2 (+5 for Fighters, Paladins and Rangers)    | 100                                  | 99                                     |
+| Constitution Score | Hit Point Bonus per Die                     | Survive Resurrection/Raise Dead (d%) | Survive System Shock (minor test) (d%) |
+| ------------------ | ------------------------------------------- | ------------------------------------ | -------------------------------------- |
+| 3                  | -2                                          | 40                                   | 35                                     |
+| 4                  | -1                                          | 45                                   | 40                                     |
+| 5                  | -1                                          | 50                                   | 45                                     |
+| 6                  | -1                                          | 55                                   | 50                                     |
+| 7                  | 0                                           | 60                                   | 55                                     |
+| 8                  | 0                                           | 65                                   | 60                                     |
+| 9                  | 0                                           | 70                                   | 65                                     |
+| 10                 | 0                                           | 75                                   | 70                                     |
+| 11                 | 0                                           | 80                                   | 75                                     |
+| 12                 | 0                                           | 85                                   | 80                                     |
+| 13                 | 0                                           | 90                                   | 85                                     |
+| 14                 | 0                                           | 92                                   | 88                                     |
+| 15                 | +1                                          | 94                                   | 91                                     |
+| 16                 | +2                                          | 96                                   | 95                                     |
+| 17                 | +2 (+3 for Fighters, Paladins, and Rangers) | 98                                   | 97                                     |
+| 18                 | +2 (+4 for Fighters, Paladins, and Rangers) | 100                                  | 99                                     |
+| 19                 | +2 (+5 for Fighters, Paladins and Rangers)  | 100                                  | 99                                     |
 
 ### Intelligence
 
