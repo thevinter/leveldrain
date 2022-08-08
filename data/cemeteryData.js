@@ -10,8 +10,22 @@ const cemeteryData = [
     name: 'Olafur',
     level: 1,
     class: 'Fighter',
-    race: 'Human',
+    race: 'Dwarf',
     death: 'Killed by an unknown entity disguised as a cat in a cage',
+  },
+  {
+    name: 'Parabir',
+    level: 1,
+    class: 'Cleric',
+    race: 'Human',
+    death: 'Killed by an dart in an ancient tomb',
+  },
+  {
+    name: 'Joe Belongi',
+    level: 1,
+    class: 'Fighter',
+    race: 'Halfling',
+    death: 'Killed by a bite of a flaming spider',
   },
 ]
 
