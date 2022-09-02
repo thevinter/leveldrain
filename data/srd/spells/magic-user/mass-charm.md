@@ -1,5 +1,5 @@
 ---
-title: Magic Jar
+title: Mass Charm
 type: Arcane Enchantment/Charm
 level: Magic user 8
 range: 5 ft / level
