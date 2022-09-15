@@ -2,6 +2,7 @@ import GA from './GoogleAnalytics'
 import Plausible from './Plausible'
 import SimpleAnalytics from './SimpleAnalytics'
 import Umami from './Umami'
+import React from 'react'
 import Posthog from './Posthog'
 import siteMetadata from '@/data/siteMetadata'
 

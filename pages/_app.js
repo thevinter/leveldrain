@@ -3,10 +3,10 @@ import '@/css/prism.css'
 import 'katex/dist/katex.css'
 
 import '@fontsource/inter/variable-full.css'
-
+import 'react-calendar-timeline/lib/Timeline.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-
+import React from 'react'
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'

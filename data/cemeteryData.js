@@ -27,6 +27,13 @@ const cemeteryData = [
     race: 'Halfling',
     death: 'Killed by a bite of a flaming spider',
   },
+  {
+    name: 'Mexico',
+    level: 1,
+    class: 'Fighter',
+    race: 'Human',
+    death: 'Killed by a bandit in the Moathouse',
+  },
 ]
 
 export default cemeteryData
