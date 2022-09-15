@@ -1,5 +1,5 @@
 ---
-title: Astral Spell 
+title: Charm Person
 type: Arcane Evocation
 level: Magic user 9
 range: Touch
