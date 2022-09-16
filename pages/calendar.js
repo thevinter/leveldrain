@@ -54,6 +54,50 @@ const characters = [
     location: 'Amundfort',
     events: [],
   },
+  {
+    name: 'Wejkloj',
+    location: 'Cyndicea',
+    events: [
+      {
+        start: moment('16-09-2022 21:00'),
+        end: moment('18-10-2022 10:00'),
+        action: 'Resting in Cyndicea',
+      },
+    ],
+  },
+  {
+    name: 'Fisfurfas',
+    location: 'Cyndicea',
+    events: [
+      {
+        start: moment('16-09-2022 21:00'),
+        end: moment('18-10-2022 10:00'),
+        action: 'Resting in Cyndicea',
+      },
+    ],
+  },
+  {
+    name: 'Nikyonna',
+    location: 'Cyndicea',
+    events: [
+      {
+        start: moment('16-09-2022 21:00'),
+        end: moment('18-10-2022 10:00'),
+        action: 'Resting in Cyndicea',
+      },
+    ],
+  },
+  {
+    name: 'Onkfinner',
+    location: 'Cyndicea',
+    events: [
+      {
+        start: moment('16-09-2022 21:00'),
+        end: moment('18-10-2022 10:00'),
+        action: 'Resting in Cyndicea',
+      },
+    ],
+  },
 ]
 
 const getFantasyDate = () => {
