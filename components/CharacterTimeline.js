@@ -35,7 +35,7 @@ export default function CharacterTimeline({ character }) {
   }, [currentEvent])
   useEffect(() => {
     character.events.forEach((element) => {
-      console.log(element.start)
+      console.log(element.start.format('dd-mm-yy'))
       if (element.start < moment.now() && element.end > moment.now()) {
         setEvent(element)
       }

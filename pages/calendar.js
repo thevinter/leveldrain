@@ -59,8 +59,8 @@ const characters = [
     location: 'Cyndicea',
     events: [
       {
-        start: moment('16-09-2022 21:00'),
-        end: moment('18-10-2022 10:00'),
+        start: moment('09-16-2022'),
+        end: moment('09-18-2022'),
         action: 'Resting in Cyndicea',
       },
     ],
@@ -70,8 +70,8 @@ const characters = [
     location: 'Cyndicea',
     events: [
       {
-        start: moment('16-09-2022 21:00'),
-        end: moment('18-10-2022 10:00'),
+        start: moment('09-16-2022'),
+        end: moment('09-18-2022'),
         action: 'Resting in Cyndicea',
       },
     ],
@@ -81,8 +81,8 @@ const characters = [
     location: 'Cyndicea',
     events: [
       {
-        start: moment('16-09-2022 21:00'),
-        end: moment('18-10-2022 10:00'),
+        start: moment('09-16-2022'),
+        end: moment('09-18-2022'),
         action: 'Resting in Cyndicea',
       },
     ],
@@ -92,8 +92,8 @@ const characters = [
     location: 'Cyndicea',
     events: [
       {
-        start: moment('16-09-2022 21:00'),
-        end: moment('18-10-2022 10:00'),
+        start: moment('09-16-2022'),
+        end: moment('09-18-2022'),
         action: 'Resting in Cyndicea',
       },
     ],
