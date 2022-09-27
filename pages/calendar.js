@@ -25,8 +25,47 @@ const characters = [
   },
   {
     name: 'Grambir',
-    location: 'Amundfort',
-    events: [],
+    location: 'Fishtool',
+    events: [
+      {
+        start: moment('09-27-2022'),
+        end: moment('10-01-2022'),
+        action: 'Traveling back and forth between Fishtool and Smallhill',
+      },
+    ],
+  },
+  {
+    name: "Ak'Ozar",
+    location: 'Fishtool',
+    events: [
+      {
+        start: moment('09-27-2022'),
+        end: moment('10-01-2022'),
+        action: 'Traveling back and forth between Fishtool and Smallhill',
+      },
+    ],
+  },
+  {
+    name: 'Johan th Young',
+    location: 'Smallhill',
+    events: [
+      {
+        start: moment('09-27-2022'),
+        end: moment('10-01-2022'),
+        action: 'Traveling to Smallhill',
+      },
+    ],
+  },
+  {
+    name: 'Mezlosses',
+    location: 'Fishtool',
+    events: [
+      {
+        start: moment('09-27-2022'),
+        end: moment('10-01-2022'),
+        action: 'Traveling back and forth between Fishtool and Smallhill',
+      },
+    ],
   },
   {
     name: 'Azores',
@@ -36,13 +75,7 @@ const characters = [
   {
     name: "George 'Il Lanario'",
     location: 'Amundfort',
-    events: [
-      {
-        start: moment('09-09-2022'),
-        end: moment('10-10-2022'),
-        action: 'Traveling to Amundfort',
-      },
-    ],
+    events: [],
   },
   {
     name: 'Lomzek',
