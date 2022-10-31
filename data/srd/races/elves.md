@@ -91,7 +91,7 @@ the race of Elf is not a valid choice for the character:
 - Constitution: 8/17
 - Intelligence: 8/18
 - Wisdom: 3/18
-- Charisma: 8/1
+- Charisma: 8/18
 
 ### Level Limitations:
 
